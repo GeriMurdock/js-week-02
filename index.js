@@ -34,14 +34,14 @@ const commaFTW = () =>
  */
 const buildingBlocks = () => (
   // change the next line to use block syntax
-  () => 'passing this test like a boss'
+  () => {return 'passing this test like a boss'}
 )()
 
 
 const writeAFunction = () => (
   // replace the empty string with a function
   // that returns any non-empty string
-  () => {return 4}
+  () => {return "hello"}
 )()
 
 
